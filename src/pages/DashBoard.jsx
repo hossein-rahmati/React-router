@@ -1,7 +1,9 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 
 function DashBoard() {
+  const location = useLocation(); // this is the state that we sent from login component
+  console.log(location);
   return (
     <div id="dashboard">
       <div id="sidebar">
