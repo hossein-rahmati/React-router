@@ -7,7 +7,7 @@ function Posts() {
       <h1>posts page</h1>
       <ul>
         <li>
-          <Link to="1">Post 1</Link>
+          <Link to="1?category=free&type=blog">Post 1</Link>
         </li>
         <li>
           <Link to="2">Post 2</Link>
